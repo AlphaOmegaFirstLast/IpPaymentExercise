@@ -1,0 +1,82 @@
+﻿<div class="jumbotron">
+    <h4>Code structure</h4>
+    <h4>WCF Class Library (.dll) </h4>
+    <h4>WCF Web Service </h4>
+    <h4>Web Api works as client to WCF and has UI for testing </h4>
+</div>
+<div class="row">
+    <div class="col-md-3" >
+        <h4>WhatsYourId</h4>
+    </div>
+    <div class="col-md-8">
+        <input id="command1" type="text" class="form-control"  style="min-width:500px;" value="http://localhost:49409/api/payment/whatsYourId">
+    </div>
+    <div class="col-md-1" >
+        <button type="button" class="btn btn-default" onclick=' $.ajax ({
+                                                                        url: $("#command1").val()
+                                                                        , success: function (result) { $("#divResult").html(JSON.stringify(result)); }
+                                                                        , error: function (xhr, status, error) { $("#divResult").html("Error in Ajax Call, status:" + status); }
+                                                                       })'>
+            Execute
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h4>IsCardNumberValid</h4>
+    </div>
+    <div class="col-md-8">
+        <input id="command2" type="text" class="form-control" style="min-width:100%;" value="http://localhost:49409/api/payment/isCardNumberValid/45">
+    </div>
+    <div class="col-md-1">
+        <button type="button" class="btn btn-default" onclick=' $.ajax ({
+                                                                        url: $("#command2").val()
+                                                                        , success: function (result) { $("#divResult").html(JSON.stringify(result)); }
+                                                                        , error: function (xhr, status, error) { $("#divResult").html("Error in Ajax Call, status:" + status); }
+                                                                       })'>
+            Execute
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h4>IsValidPaymentAmount</h4>
+    </div>
+    <div class="col-md-8">
+        <input id="command3" type="text" class="form-control" style="min-width:100%;" value="http://localhost:49409/api/payment/IsValidPaymentAmount/99999999">
+    </div>
+    <div class="col-md-1">
+        <button type="button" class="btn btn-default" onclick=' $.ajax ({
+                                                                        url: $("#command3").val()
+                                                                        , success: function (result) { $("#divResult").html(JSON.stringify(result)); }
+                                                                        , error: function (xhr, status, error) { $("#divResult").html("Error in Ajax Call, status:" + status); }
+                                                                       })'>
+            Execute
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h4>IsCardNumberValid</h4>
+    </div>
+    <div class="col-md-8">
+        <input id="command4" type="text" class="form-control" style="min-width:100%;" value="http://localhost:49409/api/payment/CanMakePaymentWithCard/100?expiryMonth=11&expiryYear=2018">
+    </div>
+    <div class="col-md-1">
+        <button type="button" class="btn btn-default" onclick=' $.ajax ({
+                                                                        url: $("#command4").val()
+                                                                        , success: function (result) { $("#divResult").html(JSON.stringify(result)); }
+                                                                        , error: function (xhr, status, error) { $("#divResult").html("Error in Ajax Call, status:" + status); }
+                                                                       })'>
+            Execute
+        </button>
+    </div>
+</div>
+
+<br/>
+Result
+<div id="divResult">
+</div>

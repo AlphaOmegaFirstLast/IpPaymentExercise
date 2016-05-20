@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PaymentService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/CodeExercise.Library/PaymentService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/CodeExercise.Library/PaymentService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPaymentService_WhatsYourId_InputMessage">
+    <wsdl:part name="parameters" element="tns:WhatsYourId" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_WhatsYourId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WhatsYourIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_IsCardNumberValid_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsCardNumberValid" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_IsCardNumberValid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsCardNumberValidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_IsValidPaymentAmount_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidPaymentAmount" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_IsValidPaymentAmount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidPaymentAmountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_CanMakePaymentWithCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:CanMakePaymentWithCard" />
+  </wsdl:message>
+  <wsdl:message name="IPaymentService_CanMakePaymentWithCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CanMakePaymentWithCardResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPaymentService">
+    <wsdl:operation name="WhatsYourId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/WhatsYourId" message="tns:IPaymentService_WhatsYourId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/WhatsYourIdResponse" message="tns:IPaymentService_WhatsYourId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsCardNumberValid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/IsCardNumberValid" message="tns:IPaymentService_IsCardNumberValid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/IsCardNumberValidResponse" message="tns:IPaymentService_IsCardNumberValid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsValidPaymentAmount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/IsValidPaymentAmount" message="tns:IPaymentService_IsValidPaymentAmount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/IsValidPaymentAmountResponse" message="tns:IPaymentService_IsValidPaymentAmount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CanMakePaymentWithCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPaymentService/CanMakePaymentWithCard" message="tns:IPaymentService_CanMakePaymentWithCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPaymentService/CanMakePaymentWithCardResponse" message="tns:IPaymentService_CanMakePaymentWithCard_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPaymentService" type="tns:IPaymentService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WhatsYourId">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/WhatsYourId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsCardNumberValid">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/IsCardNumberValid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidPaymentAmount">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/IsValidPaymentAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanMakePaymentWithCard">
+      <soap:operation soapAction="http://tempuri.org/IPaymentService/CanMakePaymentWithCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PaymentService">
+    <wsdl:port name="BasicHttpBinding_IPaymentService" binding="tns:BasicHttpBinding_IPaymentService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/CodeExercise.Library/PaymentService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

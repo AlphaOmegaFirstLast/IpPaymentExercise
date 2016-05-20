@@ -1,0 +1,8 @@
+C:\GitHub\CodeExercise\CodeExercise.WCF\bin\CodeExercise.WCF.dll.config
+C:\GitHub\CodeExercise\CodeExercise.WCF\bin\CodeExercise.WCF.dll
+C:\GitHub\CodeExercise\CodeExercise.WCF\bin\CodeExercise.WCF.pdb
+C:\GitHub\CodeExercise\CodeExercise.WCF\bin\CodeExercise.Library.dll
+C:\GitHub\CodeExercise\CodeExercise.WCF\bin\CodeExercise.Library.pdb
+C:\GitHub\CodeExercise\CodeExercise.WCF\obj\Debug\CodeExercise.WCF.csprojResolveAssemblyReference.cache
+C:\GitHub\CodeExercise\CodeExercise.WCF\obj\Debug\CodeExercise.WCF.dll
+C:\GitHub\CodeExercise\CodeExercise.WCF\obj\Debug\CodeExercise.WCF.pdb

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExercise.Library", "CodeExercise.Library\CodeExercise.Library.csproj", "{6CC68CDF-4668-4516-8C2A-61D9EE05AD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExercise.WCF", "CodeExercise.WCF\CodeExercise.WCF.csproj", "{D3FA9711-0B14-4207-B364-C500524010D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExercise.Library.UnitTests", "CodeExercise.Library.UnitTests\CodeExercise.Library.UnitTests.csproj", "{B973BA52-4A19-47B7-8819-FB7AF66DAC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExercise.Library.IntegrationTest", "CodeExercise.Library.IntegrationTest\CodeExercise.Library.IntegrationTest.csproj", "{92F803C7-0314-41CF-8875-15F0BC331104}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3FA9711-0B14-4207-B364-C500524010D1} = {D3FA9711-0B14-4207-B364-C500524010D1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExercise.WebApi", "CodeExercise.WebApi\CodeExercise.WebApi.csproj", "{D24A5AB4-4FE1-447E-9F88-80924DA9F7FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3FA9711-0B14-4207-B364-C500524010D1} = {D3FA9711-0B14-4207-B364-C500524010D1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeExercise.WebApi.Tests", "CodeExercise.WebApi.Tests\CodeExercise.WebApi.Tests.csproj", "{CD1A8607-02FA-45D6-A167-7610080B66F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD276EF3-F454-4EFA-B5DE-804FC93FEAB9}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.doc = ReadMe.doc
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC68CDF-4668-4516-8C2A-61D9EE05AD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC68CDF-4668-4516-8C2A-61D9EE05AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC68CDF-4668-4516-8C2A-61D9EE05AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC68CDF-4668-4516-8C2A-61D9EE05AD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FA9711-0B14-4207-B364-C500524010D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FA9711-0B14-4207-B364-C500524010D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FA9711-0B14-4207-B364-C500524010D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FA9711-0B14-4207-B364-C500524010D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B973BA52-4A19-47B7-8819-FB7AF66DAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B973BA52-4A19-47B7-8819-FB7AF66DAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B973BA52-4A19-47B7-8819-FB7AF66DAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B973BA52-4A19-47B7-8819-FB7AF66DAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F803C7-0314-41CF-8875-15F0BC331104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F803C7-0314-41CF-8875-15F0BC331104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F803C7-0314-41CF-8875-15F0BC331104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F803C7-0314-41CF-8875-15F0BC331104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24A5AB4-4FE1-447E-9F88-80924DA9F7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24A5AB4-4FE1-447E-9F88-80924DA9F7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24A5AB4-4FE1-447E-9F88-80924DA9F7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24A5AB4-4FE1-447E-9F88-80924DA9F7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1A8607-02FA-45D6-A167-7610080B66F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1A8607-02FA-45D6-A167-7610080B66F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1A8607-02FA-45D6-A167-7610080B66F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1A8607-02FA-45D6-A167-7610080B66F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

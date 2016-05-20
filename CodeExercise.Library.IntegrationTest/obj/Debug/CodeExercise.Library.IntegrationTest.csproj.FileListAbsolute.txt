@@ -1,0 +1,7 @@
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\bin\Debug\CodeExercise.Library.IntegrationTest.dll.config
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\bin\Debug\CodeExercise.Library.IntegrationTest.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\bin\Debug\CodeExercise.Library.IntegrationTest.pdb
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\obj\Debug\CodeExercise.Library.IntegrationTest.csprojResolveAssemblyReference.cache
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\obj\Debug\CodeExercise.Library.IntegrationTest.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.IntegrationTest\obj\Debug\CodeExercise.Library.IntegrationTest.pdb

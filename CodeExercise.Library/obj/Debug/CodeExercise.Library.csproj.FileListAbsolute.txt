@@ -1,0 +1,6 @@
+C:\GitHub\CodeExercise\CodeExercise.Library\bin\Debug\CodeExercise.Library.dll.config
+C:\GitHub\CodeExercise\CodeExercise.Library\bin\Debug\CodeExercise.Library.dll
+C:\GitHub\CodeExercise\CodeExercise.Library\bin\Debug\CodeExercise.Library.pdb
+C:\GitHub\CodeExercise\CodeExercise.Library\obj\Debug\CodeExercise.Library.csprojResolveAssemblyReference.cache
+C:\GitHub\CodeExercise\CodeExercise.Library\obj\Debug\CodeExercise.Library.dll
+C:\GitHub\CodeExercise\CodeExercise.Library\obj\Debug\CodeExercise.Library.pdb

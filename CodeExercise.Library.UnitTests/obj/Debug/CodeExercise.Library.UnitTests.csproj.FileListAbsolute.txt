@@ -1,0 +1,8 @@
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\bin\Debug\CodeExercise.Library.UnitTests.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\bin\Debug\CodeExercise.Library.UnitTests.pdb
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\bin\Debug\CodeExercise.Library.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\bin\Debug\CodeExercise.Library.pdb
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\obj\Debug\CodeExercise.Library.UnitTests.csprojResolveAssemblyReference.cache
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\obj\Debug\CodeExercise.Library.UnitTests.dll
+C:\GitHub\CodeExercise\CodeExercise.Library.UnitTests\obj\Debug\CodeExercise.Library.UnitTests.pdb
